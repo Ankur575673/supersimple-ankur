@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .button-x {
+                position: relative;
+            }
+            .x-button {
+                position: absolute;
+                background-color: black;
+               padding-top: 2px;
+               padding-bottom: 2px;
+               padding-left: 5px;
+               padding-right: 5px;
+                border-radius: 15px;
+                color: white;
+                top: -10px;
+                left: -10px;
+            }
+            .container {
+                position: fixed;
+                bottom: 0;
+                right: 0;
+            }
+            .gray-box {
+                width: 320px;
+                height: 180px;
+                background-color: gray;
+            }
+        </style>
+    </head>
+    <body style="
+    height: 3000px;
+    ">
+        
+<div class="container">
+        <div class="gray-box">
+            <div class="button-x">
+                <button class="x-button">X</button>
+            </div>
+        </div>
+    </div>
+    </body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            p {
+                font-family: Arial;
+             }
+.card {
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+width: 300px;
+height: 150px;
+padding-left: 10px;
+padding-top: 2px;
+padding-right: 10px;
+padding-bottom: 2px;
+border-color: gray;
+border: 1px;
+border-style: solid;
+
+}
+.notification-flex,
+.massage-flex,
+.home-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex-button {
+background-color: blue;
+color: white;
+border: none;
+width: 40px;
+border-radius: 15px;
+height: 20px;
+}
+
+
+        </style>
+
+    </head>
+    <body>
+        <div>
+        <div class="card">
+            <div class="home-flex">
+            <p>
+                Home
+            </p>
+            <button class="flex-button">14</button>
+        </div>
+        <div class="notification-flex">
+            <p>
+                Notification
+            </p>
+            <button class="flex-button">
+                3
+            </button>
+        </div>
+        <div class="notification-flex">
+            <p>
+                messages
+            </p>
+            <button class="flex-button">5</button>
+        </div>
+        </div>
+        
+        </div>
+    </body>
+</html>

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .picture {
+            display: flex;
+            align-items: center;
+            position: relative;
+        }
+
+        .thumbnail {
+            height: 300px;
+            width: 400px;
+        }
+
+        .channel {
+            height: 60px;
+            width: 60px;
+            border-radius: 30px;
+        }
+
+        .container {
+            position: relative;
+        }
+
+        .time {
+            position: absolute;
+            background-color: black;
+            color: white;
+            right: 0;
+            bottom: 5px;
+            padding-left: 5px;
+            padding-top: 3px;
+            padding-right: 5px;
+            padding-bottom: 3px;
+        }
+
+        .main-container {
+            display: flex;
+        }
+
+        .main {
+            display: inline-block;
+        }
+
+        .text {
+            cursor: pointer;
+        }
+
+
+        .piture {
+            height: 60px;
+            width: 60px;
+            border-radius: 30px;
+        }
+
+        .hover {
+            box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
+            width: 200px;
+            height: 70px;
+            padding-left: 15px;
+            padding-top: 5px;
+            padding-right: 5px;
+            padding-bottom: 5px;
+            display: none;
+            align-items: center;
+            position: relative;
+            border-radius: 4px;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            right: 0;
+        }
+
+        .header {
+            border-style: solid;
+            border-width: 1px;
+            height: 500px;
+            width: 500px;
+            border-color: black;
+            padding-left: 50px;
+        }
+        .channel:hover + .hover {
+            display: flex;
+        }   
+    </style>
+</head>
+
+<body>
+
+
+    <div class="header">
+        <div class="main">
+            <div class="main-container">
+                <a style="display: block;" href="https://www.youtube.com/watch?v=n2RNcPRtAiY" target="_blank"><img
+                        class="thumbnail" src="thumbnails/thumbnail-1.webp"></a>
+                <div class="container">
+                    <div class="time">14:20</div>
+                </div>
+            </div>
+            <div class="picture_wrap">
+                <div class="picture">
+                    <img class="channel" src="channel-pictures/channel-1.jpeg">
+                    
+                    <div class="hover">
+                        <div>
+                            <img class="piture" src="thumbnails/thumbnail-1.webp">
+                        </div>
+                        <div>
+                            <p>Marques brownlee</p>
+                            <p>15M subscriber</p>
+                        </div>
+                    </div>
+                    
+                    <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY" target="_blank">
+                        <p class="text">Talking tech and AI with google CEO sundar pichai!</p>
+                    </a>
+                </div>
+                
+            </div>
+        </div>
+        
+
+
+</body>
+
+</html>
